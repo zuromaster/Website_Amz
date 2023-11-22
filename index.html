@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- metas -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- externos -->
+  <script src="/script.js"></script>
+  <!-- blibiotecas css e js -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="style.css">
+  <!-- s bibliotecas AOS em seu HTML: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- document home -->
+  <title>Home</title>
+
+</head>
+
+<body>
+
+  <!-- menu do site -->
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <!-- por imagem aqui -->
+
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="modeloNavbar.html">
+
+            <!-- linkei imagem da pixabay no site -->
+
+            <img src="https://cdn.pixabay.com/photo/2016/06/09/18/36/logo-1446293_1280.png" alt="Bootstrap" width="30"
+              height="24"> Salve a Amazônia
+          </a>
+        </div>
+      </nav>
+      <!-- Fim da logo aqui -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="galeria.html">Galeria</a>
+          <a class="nav-link" href="login.html">Download</a>
+          <a class="nav-link" href="doacoes.html">Doações</a>
+          <a class="nav-link" href="contato.php">Contato</a>
+          <a hidden class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- fim do menu do site -->
+
+  <!-- Inicio do breadcrump -->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">Home</li>
+      <li class="breadcrumb-item active" aria-current="page"></li>
+    </ol>
+  </nav>
+  <!-- fim do breadcrump -->
+
+  <!-- template largo -->
+  <div class="card text-bg-dark">
+    <img src="IMAGES/GP1SZPHR_.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h1 class="card-title"><a>Salve a amazônia.</h1>
+      <p class="card-text">A Amazônia: um pulmão do mundo em perigo.</p>
+      <a href="https://sosamazonia.org.br/doe">
+        <button class="btn" style="background-color:green; color: white;" class="btn btn-close-white">
+          <p class="card-text"> Faça a diferença, doe agora através do sos amazonia. </p>
+        </button>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- fim do template largo -->
+
+  <!-- inicio colunas -->
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <button class="btn" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample">
+          <h3 class="aos" data-aos="fade-up"><br>Perda de Biodiversidade:</h3>
+        </button>
+
+      </div>
+      <div class="col">
+        <button class="btn" data-bs-toggle="offcanvas" href="#offcanvas2" role="button"
+          aria-controls="offcanvasExample">
+          <h3 class="aos" data-aos="fade-up"><br>Liberação de Carbono:</h3>
+        </button>
+      </div>
+
+      <div class="col">
+        <button class="btn" data-bs-toggle="offcanvas" href="#offcanvas3" role="button"
+          aria-controls="offcanvasExample">
+          <h3 class="aos" data-aos="fade-up"><br>Impacto nas Comunidades Indígenas:</h3>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- fim das colunas -->
+  <Br>
+
+  <!-- inicio do accordion -->
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Biodiversidade e Descobertas Científicas:
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Benefício:</strong> A Amazônia é um tesouro de biodiversidade, abrigando uma vasta variedade de
+          espécies de plantas, animais e microorganismos. Essa diversidade é uma fonte inestimável para descobertas
+          científicas, contribuindo para avanços em medicina, biotecnologia, e compreensão dos ecossistemas. Muitas
+          plantas amazônicas têm propriedades medicinais valiosas, enquanto os estudos da fauna local proporcionam
+          insights cruciais para a biologia e a conservação.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Regulação Climática e Ciclo Hidrológico:
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Benefício:</strong> A Amazônia desempenha um papel crucial na regulação do clima global. A floresta
+          atua como um sumidouro de carbono, absorvendo grandes quantidades de dióxido de carbono da atmosfera. Além
+          disso, o processo de transpiração das árvores contribui para a formação de nuvens, influenciando os padrões de
+          chuva em diversas regiões. A preservação da Amazônia é essencial para manter a estabilidade climática e a
+          regularidade do ciclo hidrológico em grande parte da América do Sul.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Sustento de Comunidades Locais e Indígenas:
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Benefício:</strong> A Amazônia é o lar de muitas comunidades locais e indígenas que dependem
+          diretamente dos recursos naturais da floresta para sua subsistência. Os habitantes tradicionais da Amazônia
+          utilizam a floresta de maneira sustentável, obtendo alimentos, medicamentos, e materiais para construção de
+          maneira equilibrada. A preservação da Amazônia não apenas protege seu ambiente único, mas também salvaguarda
+          os meios de vida e as culturas dessas comunidades, promovendo a sustentabilidade a longo prazo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- alerta simples  -->
+  <div class="alert alert-success" role="alert">
+    <a href="https://fas-amazonia.org/temas/areas-protegidas/">Veja
+      locais protegidos da amazônia no mapa!</a>
+  </div>
+  <!-- fim do alerta simples -->
+
+
+  <!-- inicio do off canvas (só é acionado quando aberto o botão "veja curiosidades") -->
+  <!-- canvas1 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel">Perda de Biodiversidade:</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      A Amazônia abriga uma diversidade impressionante de espécies, muitas das quais ainda não foram descobertas e
+      catalogadas pela ciência. O desmatamento na região tem levado à perda irreparável de habitats naturais, resultando
+      na extinção de várias espécies de plantas e animais antes mesmo de serem identificadas. A destruição do ambiente
+      amazônico tem um impacto significativo na biodiversidade global.
+    </div>
+  </div>
+  <!-- canvas2 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel">Liberação de Carbono:</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      A floresta amazônica desempenha um papel crucial na regulação do clima global, atuando como um sumidouro de
+      carbono. No entanto, o desmatamento libera grandes quantidades de carbono armazenado nas árvores, contribuindo
+      para o aumento das emissões de gases de efeito estufa. Esse processo acelera as mudanças climáticas e tem
+      repercussões globais, afetando o clima e os padrões meteorológicos em diferentes partes do mundo.
+    </div>
+  </div>
+  <!-- canvas3 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas3" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel">Impacto nas Comunidades Indígenas:</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      Muitas comunidades indígenas dependem da floresta amazônica para sua subsistência e modo de vida. O desmatamento
+      muitas vezes resulta na invasão de terras indígenas, levando à perda de recursos naturais essenciais para sua
+      sobrevivência, como água potável e alimentos. Além disso, a destruição do ambiente natural pode resultar na perda
+      de conhecimentos tradicionais e culturais dessas comunidades, contribuindo para a perda da diversidade cultural na
+      região.
+    </div>
+  </div>
+
+  <!-- fim do offcanvas (adicionar mais paginas) -->
+
+  <!-- inicio "sobre nós" -->
+
+  <div>
+
+    <p>
+    <div class="d-grid gap-2">
+      <button style="font-size: 25px;" class="btn btn-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Sobre Nós: Unindo Esforços para Salvar a Amazônia
+      </button>
+      </p>
+    </div>
+    <div style="min-height: 120px;">
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body" style="width: 1900px;">
+          Em um mundo cada vez mais consciente da importância da preservação ambiental, surge um grupo apaixonado e<br>
+          dedicado, comprometido em fazer a diferença para a Amazônia, pulmão verde do nosso planeta. Somos um coletivo<br>
+          diversificado de indivíduos motivados por uma missão comum: levar o impacto positivo das ONGs que atuam na<br>
+          Amazônia para além das fronteiras convencionais, alcançando corações e mentes ao redor do globo.<br>
+          <br>
+          <strong>Conhecimento e Sensibilização:</strong><br>
+          No cerne de nossa missão está o compromisso de aumentar a consciência sobre os desafios enfrentados pela<br>
+          Amazônia. Acreditamos que a educação é a chave para a mudança, e, portanto, trabalhamos incansavelmente para<br>
+          disseminar informações vitais sobre a importância da floresta, sua biodiversidade única e os riscos crescentes<br>
+          do desmatamento. Por meio de campanhas educacionais inovadoras, pretendemos criar uma conexão emocional entre<br>
+          as pessoas e a Amazônia, despertando um senso de responsabilidade compartilhada.<br>
+          <br>
+          <strong>Conexões Globais para Apoio Local:</strong><br>
+          Reconhecemos que a preservação da Amazônia é uma responsabilidade global. Nosso grupo atua como uma ponte<br>
+          entre organizações não governamentais na região amazônica e o mundo exterior. Facilitamos parcerias<br>
+          significativas, canalizando recursos financeiros e humanos para apoiar projetos de conservação, pesquisa e<br>
+          desenvolvimento sustentável. Acreditamos na força da solidariedade global e na capacidade de fazer a diferença<br>
+          através de ações coordenadas.<br>
+          <br>
+          <strong>Inovação Digital para Causas Ambientais:</strong><br>
+          No mundo digital de hoje, a tecnologia é uma aliada poderosa na luta pela preservação ambiental. Utilizamos<br>
+          plataformas online, redes sociais e ferramentas inovadoras para amplificar nossa mensagem e conectar pessoas<br>
+          ao redor do mundo. Com campanhas interativas, documentários envolventes e iniciativas de crowdsourcing,<br>
+          buscamos não apenas conscientizar, mas também inspirar ações tangíveis em prol da Amazônia.<br>
+          <br>
+          <strong>Compromisso Contínuo:</strong><br>
+          A jornada em direção à preservação da Amazônia é longa e desafiadora, mas permanecemos comprometidos. Cada<br>
+          ação, doação e voz que se junta a nós é um passo em direção a um futuro mais sustentável para a Amazônia e<br>
+          para o nosso planeta como um todo. Juntos, somos uma força imparável, determinada a proteger e preservar a<br>
+          beleza única da Amazônia para as gerações presentes e futuras. Sobre nós, é mais do que um título; é uma<br>
+          promessa de ação significativa e impacto duradouro.<br>
+        </div>
+
+      </div>
+      <iframe class="aos" data-aos="fade-up"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.093069431661!2d-62.215880500000004!3d-3.4653051999999938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91e8605342744385%3A0x3d3c6dc1394a7fc7!2zQW1hesO0bmlh!5e0!3m2!1spt-BR!2sbr!4v1700009193491!5m2!1spt-BR!2sbr"
+        width="1900" height="750" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <script>
+    AOS.init({
+      duration: 2900, // Duração da animação em milissegundos
+      easing: 'ease-in-out', // Tipo de animação
+      once:100, // Se a animação deve ocorrer apenas uma vez
+    });
+  </script>
+  
+</body>
+
+</html>
